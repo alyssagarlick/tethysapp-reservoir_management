@@ -120,8 +120,8 @@ def hatillo(request):
     #for the table as seen below.
 
     watershed = 'Dominican Republic'
-    subbasin = 'Yaque del Sur'
-    comids = ['21838', '21834', '21835']
+    subbasin = 'Camu and yuna'
+    comids = ['21724', '21735']
 
     forecastinfo = getforecastflows(watershed,subbasin,comids)
     data = gethistoricaldata('Hatillo')
@@ -225,8 +225,8 @@ def chacuey(request):
     """
 
     watershed = 'Dominican Republic'
-    subbasin = 'Yaque del Sur'
-    comids = ['21838', '21834', '21835']
+    subbasin = 'Yaque del norte'
+    comids = ['21440']
 
     forecastinfo = getforecastflows(watershed,subbasin,comids)
     data = gethistoricaldata('Chacuey')
@@ -329,8 +329,8 @@ def moncion(request):
     """
 
     watershed = 'Dominican Republic'
-    subbasin = 'Yaque del Sur'
-    comids = ['21838', '21834', '21835']
+    subbasin = 'Yaque del norte'
+    comids = ['21545', '21519']
 
     forecastinfo = getforecastflows(watershed,subbasin,comids)
     data = gethistoricaldata('Moncion')
@@ -433,8 +433,8 @@ def rincon(request):
     """
 
     watershed = 'Dominican Republic'
-    subbasin = 'Yaque del Sur'
-    comids = ['21838', '21834', '21835']
+    subbasin = 'Camu and yuna'
+    comids = ['21648']
 
     forecastinfo = getforecastflows(watershed,subbasin,comids)
     data = gethistoricaldata('Rincon')
@@ -486,7 +486,7 @@ def sabaneta(request):
 
     watershed = 'Dominican Republic'
     subbasin = 'Yaque del Sur'
-    comids = ['21838', '21834', '21835']
+    comids = ['21680', '21681']
 
     forecastinfo = getforecastflows(watershed,subbasin,comids)
     data = gethistoricaldata('Sabaneta')
@@ -537,8 +537,8 @@ def tavera_bao(request):
     """
 
     watershed = 'Dominican Republic'
-    subbasin = 'Yaque del Sur'
-    comids = ['21838', '21834', '21835']
+    subbasin = 'Yaque del norte'
+    comids = ['21584', '21592', '21532','21526']
 
     forecastinfo = getforecastflows(watershed,subbasin,comids)
     data = gethistoricaldata('Bao')
